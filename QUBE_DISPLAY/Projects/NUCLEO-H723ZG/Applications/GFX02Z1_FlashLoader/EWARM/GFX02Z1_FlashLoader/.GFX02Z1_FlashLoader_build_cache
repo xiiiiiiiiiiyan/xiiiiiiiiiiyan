@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BuildDb>
+    <Tool>
+        <Name>linker</Name>
+        <Parent>
+            <Path>E:\QUBE_DISPLAY\Projects\NUCLEO-H723ZG\Applications\GFX02Z1_FlashLoader\EWARM\GFX02Z1_FlashLoader\Exe\FlashLoader.out</Path>
+            <Output>
+                <Path>E:\QUBE_DISPLAY\Projects\NUCLEO-H723ZG\Applications\GFX02Z1_FlashLoader\EWARM\GFX02Z1_FlashLoader\List\FlashLoader.map</Path>
+            </Output>
+        </Parent>
+        <Parent>
+            <Path>E:\QUBE_DISPLAY\Projects\NUCLEO-H723ZG\Applications\GFX02Z1_FlashLoader\EWARM\GFX02Z1_FlashLoader\Exe\GFX02Z1_FlashLoader.out</Path>
+            <Output>
+                <Path>E:\QUBE_DISPLAY\Projects\NUCLEO-H723ZG\Applications\GFX02Z1_FlashLoader\EWARM\GFX02Z1_FlashLoader\List\GFX02Z1_FlashLoader.map</Path>
+            </Output>
+        </Parent>
+        <Parent>
+            <Path>E:\QUBE_DISPLAY - 副本\Projects\NUCLEO-H723ZG\Applications\GFX02Z1_FlashLoader\EWARM\GFX02Z1_FlashLoader\Exe\FlashLoader.out</Path>
+            <Output>
+                <Path>E:\QUBE_DISPLAY - 副本\Projects\NUCLEO-H723ZG\Applications\GFX02Z1_FlashLoader\EWARM\GFX02Z1_FlashLoader\List\FlashLoader.map</Path>
+            </Output>
+        </Parent>
+        <Parent>
+            <Path>E:\QUBE_DISPLAY - 副本 - 副本\Projects\NUCLEO-H723ZG\Applications\GFX02Z1_FlashLoader\EWARM\GFX02Z1_FlashLoader\Exe\FlashLoader.out</Path>
+            <Output>
+                <Path>E:\QUBE_DISPLAY - 副本 - 副本\Projects\NUCLEO-H723ZG\Applications\GFX02Z1_FlashLoader\EWARM\GFX02Z1_FlashLoader\List\FlashLoader.map</Path>
+            </Output>
+        </Parent>
+    </Tool>
+</BuildDb>

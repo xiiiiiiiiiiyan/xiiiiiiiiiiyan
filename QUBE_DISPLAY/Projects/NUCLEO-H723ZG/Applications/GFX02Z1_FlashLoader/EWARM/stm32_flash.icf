@@ -1,0 +1,17 @@
+//使用DCRAM段运行速度快
+define symbol __ICFEDIT_region_RAM_start__   = 0x24000004;
+define symbol __ICFEDIT_region_RAM_end__     = 0x24004FFF;
+
+define memory mem with size = 4G;
+define region RAM_region   = mem:[from __ICFEDIT_region_RAM_start__   to __ICFEDIT_region_RAM_end__];
+define region Info   = mem:[from 0x24004DFF to 0x24004FFF];
+
+
+define block RO_BLOCK with fixed order { readonly };
+define block RW_BLOCK with fixed order { readwrite, section .bss };
+
+do not initialize  { section .info, readwrite, section .bss };
+
+place in RAM_region   { block RO_BLOCK };
+place in RAM_region   { block RW_BLOCK };
+place in Info         { readonly data object Dev_Inf.o };

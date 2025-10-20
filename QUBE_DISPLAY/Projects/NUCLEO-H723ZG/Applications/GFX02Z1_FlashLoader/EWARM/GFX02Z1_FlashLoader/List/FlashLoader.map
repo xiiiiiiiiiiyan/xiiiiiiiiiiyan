@@ -1,0 +1,307 @@
+###############################################################################
+#
+# IAR ELF Linker V9.40.1.364/W64 for ARM                  31/Mar/2025  10:09:01
+# Copyright 2007-2023 IAR Systems AB.
+#
+#    Output file  =
+#        E:\QUBE_DISPLAY - 副本 -
+#        副本\Projects\NUCLEO-H723ZG\Applications\GFX02Z1_FlashLoader\EWARM\GFX02Z1_FlashLoader\Exe\FlashLoader.out
+#    Map file     =
+#        E:\QUBE_DISPLAY - 副本 -
+#        副本\Projects\NUCLEO-H723ZG\Applications\GFX02Z1_FlashLoader\EWARM\GFX02Z1_FlashLoader\List\FlashLoader.map
+#    Command line =
+#        -f "E:\QUBE_DISPLAY - 副本 -
+#        副本\Projects\NUCLEO-H723ZG\Applications\GFX02Z1_FlashLoader\EWARM\GFX02Z1_FlashLoader\Exe\FlashLoader.out.rsp"
+#        ("E:\QUBE_DISPLAY - 副本 -
+#        副本\Projects\NUCLEO-H723ZG\Applications\GFX02Z1_FlashLoader\EWARM\GFX02Z1_FlashLoader\Obj\Loader_5447159047149611127.dir\Dev_Inf.o"
+#        "E:\QUBE_DISPLAY - 副本 -
+#        副本\Projects\NUCLEO-H723ZG\Applications\GFX02Z1_FlashLoader\EWARM\GFX02Z1_FlashLoader\Obj\Loader_5447159047149611127.dir\Loader_Src.o"
+#        "E:\QUBE_DISPLAY - 副本 -
+#        副本\Projects\NUCLEO-H723ZG\Applications\GFX02Z1_FlashLoader\EWARM\GFX02Z1_FlashLoader\Obj\Core_13247989168731456611.dir\main.o"
+#        "E:\QUBE_DISPLAY - 副本 -
+#        副本\Projects\NUCLEO-H723ZG\Applications\GFX02Z1_FlashLoader\EWARM\GFX02Z1_FlashLoader\Obj\Core_13247989168731456611.dir\stm32_eval_spi_flash.o"
+#        "E:\QUBE_DISPLAY - 副本 -
+#        副本\Projects\NUCLEO-H723ZG\Applications\GFX02Z1_FlashLoader\EWARM\GFX02Z1_FlashLoader\Obj\Core_13247989168731456611.dir\stm32h7xx_.o"
+#        "E:\QUBE_DISPLAY - 副本 -
+#        副本\Projects\NUCLEO-H723ZG\Applications\GFX02Z1_FlashLoader\EWARM\GFX02Z1_FlashLoader\Obj\STM32H7xx_HAL_Driver_12323373487323971647.dir\stm32h7xx_hal.o"
+#        "E:\QUBE_DISPLAY - 副本 -
+#        副本\Projects\NUCLEO-H723ZG\Applications\GFX02Z1_FlashLoader\EWARM\GFX02Z1_FlashLoader\Obj\STM32H7xx_HAL_Driver_12323373487323971647.dir\stm32h7xx_hal_cortex.o"
+#        "E:\QUBE_DISPLAY - 副本 -
+#        副本\Projects\NUCLEO-H723ZG\Applications\GFX02Z1_FlashLoader\EWARM\GFX02Z1_FlashLoader\Obj\STM32H7xx_HAL_Driver_12323373487323971647.dir\stm32h7xx_hal_dma.o"
+#        "E:\QUBE_DISPLAY - 副本 -
+#        副本\Projects\NUCLEO-H723ZG\Applications\GFX02Z1_FlashLoader\EWARM\GFX02Z1_FlashLoader\Obj\STM32H7xx_HAL_Driver_12323373487323971647.dir\stm32h7xx_hal_dma_ex.o"
+#        "E:\QUBE_DISPLAY - 副本 -
+#        副本\Projects\NUCLEO-H723ZG\Applications\GFX02Z1_FlashLoader\EWARM\GFX02Z1_FlashLoader\Obj\STM32H7xx_HAL_Driver_12323373487323971647.dir\stm32h7xx_hal_exti.o"
+#        "E:\QUBE_DISPLAY - 副本 -
+#        副本\Projects\NUCLEO-H723ZG\Applications\GFX02Z1_FlashLoader\EWARM\GFX02Z1_FlashLoader\Obj\STM32H7xx_HAL_Driver_12323373487323971647.dir\stm32h7xx_hal_flash.o"
+#        "E:\QUBE_DISPLAY - 副本 -
+#        副本\Projects\NUCLEO-H723ZG\Applications\GFX02Z1_FlashLoader\EWARM\GFX02Z1_FlashLoader\Obj\STM32H7xx_HAL_Driver_12323373487323971647.dir\stm32h7xx_hal_flash_ex.o"
+#        "E:\QUBE_DISPLAY - 副本 -
+#        副本\Projects\NUCLEO-H723ZG\Applications\GFX02Z1_FlashLoader\EWARM\GFX02Z1_FlashLoader\Obj\STM32H7xx_HAL_Driver_12323373487323971647.dir\stm32h7xx_hal_gpio.o"
+#        "E:\QUBE_DISPLAY - 副本 -
+#        副本\Projects\NUCLEO-H723ZG\Applications\GFX02Z1_FlashLoader\EWARM\GFX02Z1_FlashLoader\Obj\STM32H7xx_HAL_Driver_12323373487323971647.dir\stm32h7xx_hal_hsem.o"
+#        "E:\QUBE_DISPLAY - 副本 -
+#        副本\Projects\NUCLEO-H723ZG\Applications\GFX02Z1_FlashLoader\EWARM\GFX02Z1_FlashLoader\Obj\STM32H7xx_HAL_Driver_12323373487323971647.dir\stm32h7xx_hal_i2c.o"
+#        "E:\QUBE_DISPLAY - 副本 -
+#        副本\Projects\NUCLEO-H723ZG\Applications\GFX02Z1_FlashLoader\EWARM\GFX02Z1_FlashLoader\Obj\STM32H7xx_HAL_Driver_12323373487323971647.dir\stm32h7xx_hal_i2c_ex.o"
+#        "E:\QUBE_DISPLAY - 副本 -
+#        副本\Projects\NUCLEO-H723ZG\Applications\GFX02Z1_FlashLoader\EWARM\GFX02Z1_FlashLoader\Obj\STM32H7xx_HAL_Driver_12323373487323971647.dir\stm32h7xx_hal_mdma.o"
+#        "E:\QUBE_DISPLAY - 副本 -
+#        副本\Projects\NUCLEO-H723ZG\Applications\GFX02Z1_FlashLoader\EWARM\GFX02Z1_FlashLoader\Obj\Core_13247989168731456611.dir\stm32h7xx_hal_msp.o"
+#        "E:\QUBE_DISPLAY - 副本 -
+#        副本\Projects\NUCLEO-H723ZG\Applications\GFX02Z1_FlashLoader\EWARM\GFX02Z1_FlashLoader\Obj\STM32H7xx_HAL_Driver_12323373487323971647.dir\stm32h7xx_hal_ospi.o"
+#        "E:\QUBE_DISPLAY - 副本 -
+#        副本\Projects\NUCLEO-H723ZG\Applications\GFX02Z1_FlashLoader\EWARM\GFX02Z1_FlashLoader\Obj\STM32H7xx_HAL_Driver_12323373487323971647.dir\stm32h7xx_hal_pwr.o"
+#        "E:\QUBE_DISPLAY - 副本 -
+#        副本\Projects\NUCLEO-H723ZG\Applications\GFX02Z1_FlashLoader\EWARM\GFX02Z1_FlashLoader\Obj\STM32H7xx_HAL_Driver_12323373487323971647.dir\stm32h7xx_hal_pwr_ex.o"
+#        "E:\QUBE_DISPLAY - 副本 -
+#        副本\Projects\NUCLEO-H723ZG\Applications\GFX02Z1_FlashLoader\EWARM\GFX02Z1_FlashLoader\Obj\STM32H7xx_HAL_Driver_12323373487323971647.dir\stm32h7xx_hal_rcc.o"
+#        "E:\QUBE_DISPLAY - 副本 -
+#        副本\Projects\NUCLEO-H723ZG\Applications\GFX02Z1_FlashLoader\EWARM\GFX02Z1_FlashLoader\Obj\STM32H7xx_HAL_Driver_12323373487323971647.dir\stm32h7xx_hal_rcc_ex.o"
+#        "E:\QUBE_DISPLAY - 副本 -
+#        副本\Projects\NUCLEO-H723ZG\Applications\GFX02Z1_FlashLoader\EWARM\GFX02Z1_FlashLoader\Obj\STM32H7xx_HAL_Driver_12323373487323971647.dir\stm32h7xx_hal_spi.o"
+#        "E:\QUBE_DISPLAY - 副本 -
+#        副本\Projects\NUCLEO-H723ZG\Applications\GFX02Z1_FlashLoader\EWARM\GFX02Z1_FlashLoader\Obj\STM32H7xx_HAL_Driver_12323373487323971647.dir\stm32h7xx_hal_spi_ex.o"
+#        "E:\QUBE_DISPLAY - 副本 -
+#        副本\Projects\NUCLEO-H723ZG\Applications\GFX02Z1_FlashLoader\EWARM\GFX02Z1_FlashLoader\Obj\STM32H7xx_HAL_Driver_12323373487323971647.dir\stm32h7xx_hal_tim.o"
+#        "E:\QUBE_DISPLAY - 副本 -
+#        副本\Projects\NUCLEO-H723ZG\Applications\GFX02Z1_FlashLoader\EWARM\GFX02Z1_FlashLoader\Obj\STM32H7xx_HAL_Driver_12323373487323971647.dir\stm32h7xx_hal_tim_ex.o"
+#        "E:\QUBE_DISPLAY - 副本 -
+#        副本\Projects\NUCLEO-H723ZG\Applications\GFX02Z1_FlashLoader\EWARM\GFX02Z1_FlashLoader\Obj\Core_13247989168731456611.dir\stm32h7xx_it.o"
+#        "E:\QUBE_DISPLAY - 副本 -
+#        副本\Projects\NUCLEO-H723ZG\Applications\GFX02Z1_FlashLoader\EWARM\GFX02Z1_FlashLoader\Obj\CMSIS_6603591812247902717.dir\system_stm32h7xx.o"
+#        --no_out_extension -o "E:\QUBE_DISPLAY - 副本 -
+#        副本\Projects\NUCLEO-H723ZG\Applications\GFX02Z1_FlashLoader\EWARM\GFX02Z1_FlashLoader\Exe\FlashLoader.out"
+#        --redirect _Printf=_PrintfTiny --redirect _Scanf=_ScanfSmallNoMb --map
+#        "E:\QUBE_DISPLAY - 副本 -
+#        副本\Projects\NUCLEO-H723ZG\Applications\GFX02Z1_FlashLoader\EWARM\GFX02Z1_FlashLoader\List\FlashLoader.map"
+#        --config "E:\QUBE_DISPLAY - 副本 -
+#        副本\Projects\NUCLEO-H723ZG\Applications\GFX02Z1_FlashLoader\EWARM\stm32_flash.icf"
+#        --no_entry --inline --no_exceptions --vfe --text_out locale
+#        --cpu=Cortex-M7 --fpu=VFPv5_d16) --dependencies=n "E:\QUBE_DISPLAY -
+#        副本 -
+#        副本\Projects\NUCLEO-H723ZG\Applications\GFX02Z1_FlashLoader\EWARM\GFX02Z1_FlashLoader\Exe\FlashLoader.out.iar_deps"
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+__CPP_Runtime   = 1
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because --advanced_heap
+was not specified and the application did not appear to
+be primarily optimized for speed.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+define block RO_BLOCK with fixed order { ro };
+"P1":  place in [from 0x2400'0004 to 0x2400'4fff] { block RO_BLOCK };
+define block RW_BLOCK with fixed order { rw, section .bss };
+"P2":  place in [from 0x2400'0004 to 0x2400'4fff] { block RW_BLOCK };
+"P3":  place in [from 0x2400'4dff to 0x2400'4fff] { ro data object Dev_Inf.o };
+do not initialize { section .info, rw, section .bss };
+
+  Section    Kind         Address    Size  Object
+  -------    ----         -------    ----  ------
+"P1-P2", part 1 of 2:              0x251c
+  RO_BLOCK            0x2400'0004  0x250a  <Block>
+    .rodata  const    0x2400'0004    0x10  system_stm32h7xx.o [1]
+    .text    ro code  0x2400'0014   0x28c  Loader_Src.o [3]
+    .text    ro code  0x2400'02a0   0x32c  system_stm32h7xx.o [1]
+    .text    ro code  0x2400'05cc    0x18  stm32h7xx_hal.o [4]
+    .text    ro code  0x2400'05e4    0x66  ABImemset.o [6]
+    .text    ro code  0x2400'064c   0x25c  stm32_eval_spi_flash.o [2]
+    .text    ro code  0x2400'08a8   0x13c  main.o [2]
+    .text    ro code  0x2400'09e4   0x832  stm32h7xx_hal_spi.o [4]
+    .text    ro code  0x2400'1218   0x264  stm32h7xx_hal_gpio.o [4]
+    .text    ro code  0x2400'147c   0x708  stm32h7xx_hal_rcc.o [4]
+    .text    ro code  0x2400'1b84   0x138  stm32h7xx_hal.o [4]
+    .text    ro code  0x2400'1cbc    0x14  memset.o [6]
+    .text    ro code  0x2400'1cd0    0x58  stm32h7xx_hal_pwr_ex.o [4]
+    .text    ro code  0x2400'1d28   0x6b4  stm32h7xx_hal_rcc.o [4]
+    .text    ro code  0x2400'23dc    0xb8  stm32h7xx_.o [2]
+    .text    ro code  0x2400'2494    0x38  stm32h7xx_hal_cortex.o [4]
+    .text    ro code  0x2400'24cc    0x20  stm32h7xx_hal_msp.o [2]
+    .text    ro code  0x2400'24ec    0x22  fpinit_M.o [5]
+  RW_BLOCK            0x2400'2510    0xa0  <Block>
+    .data    rw data  0x2400'2510     0x4  stm32h7xx_hal.o [4]
+    .data    rw data  0x2400'2514     0x4  system_stm32h7xx.o [1]
+    .data    rw data  0x2400'2518     0x4  system_stm32h7xx.o [1]
+    .data    rw data  0x2400'251c     0x1  stm32h7xx_hal.o [4]
+                    - 0x2400'251d  0x2519
+
+"P1-P2", part 2 of 2:                0x90
+    .bss     uninit   0x2400'2520     0x4  Loader_Src.o [3]
+    .bss     uninit   0x2400'2524    0x88  stm32_eval_spi_flash.o [2]
+    .bss     uninit   0x2400'25ac     0x4  stm32h7xx_hal.o [4]
+                    - 0x2400'25b0    0x90
+
+"P3":                                0xc8
+  .rodata    const    0x2400'4e00    0xc8  Dev_Inf.o [3]
+                    - 0x2400'4ec8    0xc8
+
+Unused ranges:
+
+         From           To    Size
+         ----           --    ----
+  0x2400'25b0  0x2400'4dff  0x2850
+  0x2400'4ec8  0x2400'4fff   0x138
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                  ro code  ro data  rw data
+    ------                  -------  -------  -------
+command line/config:
+    -------------------------------------------------
+    Total:
+
+E:\QUBE_DISPLAY - 副本 - 副本\Projects\NUCLEO-H723ZG\Applications\GFX02Z1_FlashLoader\EWARM\GFX02Z1_FlashLoader\Obj\CMSIS_6603591812247902717.dir: [1]
+    system_stm32h7xx.o          812       16        8
+    -------------------------------------------------
+    Total:                      812       16        8
+
+E:\QUBE_DISPLAY - 副本 - 副本\Projects\NUCLEO-H723ZG\Applications\GFX02Z1_FlashLoader\EWARM\GFX02Z1_FlashLoader\Obj\Core_13247989168731456611.dir: [2]
+    main.o                      316
+    stm32_eval_spi_flash.o      604               136
+    stm32h7xx_.o                184
+    stm32h7xx_hal_msp.o          32
+    -------------------------------------------------
+    Total:                    1'136               136
+
+E:\QUBE_DISPLAY - 副本 - 副本\Projects\NUCLEO-H723ZG\Applications\GFX02Z1_FlashLoader\EWARM\GFX02Z1_FlashLoader\Obj\Loader_5447159047149611127.dir: [3]
+    Dev_Inf.o                            200
+    Loader_Src.o                652                 4
+    -------------------------------------------------
+    Total:                      652      200        4
+
+E:\QUBE_DISPLAY - 副本 - 副本\Projects\NUCLEO-H723ZG\Applications\GFX02Z1_FlashLoader\EWARM\GFX02Z1_FlashLoader\Obj\STM32H7xx_HAL_Driver_12323373487323971647.dir: [4]
+    stm32h7xx_hal.o             336                 9
+    stm32h7xx_hal_cortex.o       56
+    stm32h7xx_hal_gpio.o        612
+    stm32h7xx_hal_pwr_ex.o       88
+    stm32h7xx_hal_rcc.o       3'516
+    stm32h7xx_hal_spi.o       2'098
+    -------------------------------------------------
+    Total:                    6'706                 9
+
+m7M_tlv.a: [5]
+    fpinit_M.o                   34
+    -------------------------------------------------
+    Total:                       34
+
+rt7M_tl.a: [6]
+    ABImemset.o                 102
+    memset.o                     20
+    -------------------------------------------------
+    Total:                      122
+
+    Gaps                          4
+-----------------------------------------------------
+    Grand Total:              9'466      216      157
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address   Size  Type      Object
+-----                       -------   ----  ----      ------
+CheckSum                0x2400'00a5  0x108  Code  Lc  Loader_Src.o [3]
+D1CorePrescTable        0x2400'0004   0x10  Data  Gb  system_stm32h7xx.o [1]
+Error_Handler           0x2400'09e1    0x4  Code  Gb  main.o [2]
+HAL_DeInit              0x2400'1bdb   0x86  Code  Gb  stm32h7xx_hal.o [4]
+HAL_GPIO_Init           0x2400'1219  0x212  Code  Gb  stm32h7xx_hal_gpio.o [4]
+HAL_GPIO_WritePin       0x2400'142b   0x1a  Code  Gb  stm32h7xx_hal_gpio.o [4]
+HAL_GetREVID            0x2400'1c61    0xa  Code  Gb  stm32h7xx_hal.o [4]
+HAL_GetTick             0x2400'0037   0x3a  Code  Gb  Loader_Src.o [3]
+HAL_IncTick             0x2400'05cd   0x18  Code  Wk  stm32h7xx_hal.o [4]
+HAL_Init                0x2400'1b85   0x56  Code  Gb  stm32h7xx_hal.o [4]
+HAL_InitTick            0x2400'0015   0x22  Code  Gb  Loader_Src.o [3]
+HAL_MspInit             0x2400'24cd   0x20  Code  Gb  stm32h7xx_hal_msp.o [2]
+HAL_NVIC_SetPriorityGrouping
+                        0x2400'24b7    0xc  Code  Gb  stm32h7xx_hal_cortex.o [4]
+HAL_PWREx_ConfigSupply  0x2400'1cd1   0x50  Code  Gb  stm32h7xx_hal_pwr_ex.o [4]
+HAL_RCC_ClockConfig     0x2400'1657  0x290  Code  Gb  stm32h7xx_hal_rcc.o [4]
+HAL_RCC_DeInit          0x2400'147d  0x1da  Code  Gb  stm32h7xx_hal_rcc.o [4]
+HAL_RCC_GetSysClockFreq
+                        0x2400'18e9  0x218  Code  Gb  stm32h7xx_hal_rcc.o [4]
+HAL_RCC_OscConfig       0x2400'1d29  0x6b4  Code  Wk  stm32h7xx_hal_rcc.o [4]
+HAL_SPI_Init            0x2400'09e5  0x19e  Code  Gb  stm32h7xx_hal_spi.o [4]
+HAL_SPI_MspInit         0x2400'23dd   0xa8  Code  Gb  stm32h7xx_.o [2]
+HAL_SPI_TransmitReceive
+                        0x2400'0b8d  0x54e  Code  Gb  stm32h7xx_hal_spi.o [4]
+Init                    0x2400'01ad   0x14  Code  Gb  Loader_Src.o [3]
+MX_Init                 0x2400'08a9   0x36  Code  Gb  main.o [2]
+MassErase               0x2400'01c1    0xe  Code  Gb  Loader_Src.o [3]
+RO_BLOCK$$Base          0x2400'0004          --   Gb  - Linker created -
+RO_BLOCK$$Limit         0x2400'250e          --   Gb  - Linker created -
+RW_BLOCK$$Base          0x2400'2510          --   Gb  - Linker created -
+RW_BLOCK$$Limit         0x2400'25b0          --   Gb  - Linker created -
+Read                    0x2400'01ef   0x18  Code  Gb  Loader_Src.o [3]
+ResetRamRegions         0x2400'0071   0x18  Code  Lc  Loader_Src.o [3]
+SPI_CloseTransfer       0x2400'10e9   0xce  Code  Lc  stm32h7xx_hal_spi.o [4]
+SPI_GetPacketSize       0x2400'1201   0x16  Code  Lc  stm32h7xx_hal_spi.o [4]
+SPI_WaitOnFlagUntilTimeout
+                        0x2400'11bd   0x44  Code  Lc  stm32h7xx_hal_spi.o [4]
+SPIx_Write              0x2400'0873   0x28  Code  Lc  stm32_eval_spi_flash.o [2]
+SectorErase             0x2400'01cf   0x20  Code  Gb  Loader_Src.o [3]
+SpiHandle               0x2400'2524   0x88  Data  Gb  stm32_eval_spi_flash.o [2]
+StorageInfo             0x2400'4e00   0xc8  Data  Gb  Dev_Inf.o [3]
+SysTicks                0x2400'2520    0x4  Data  Lc  Loader_Src.o [3]
+SystemClock_Config      0x2400'08df   0xec  Code  Gb  main.o [2]
+SystemCoreClock         0x2400'2514    0x4  Data  Gb  system_stm32h7xx.o [1]
+SystemCoreClockUpdate   0x2400'0359  0x1f4  Code  Gb  system_stm32h7xx.o [1]
+SystemD2Clock           0x2400'2518    0x4  Data  Gb  system_stm32h7xx.o [1]
+SystemInit              0x2400'02a1   0xb6  Code  Gb  system_stm32h7xx.o [1]
+Verify                  0x2400'0227   0x7a  Code  Gb  Loader_Src.o [3]
+Write                   0x2400'0207   0x20  Code  Gb  Loader_Src.o [3]
+__NVIC_SetPriorityGrouping
+                        0x2400'2495   0x22  Code  Lc  stm32h7xx_hal_cortex.o [4]
+__aeabi_memset          0x2400'05e5         Code  Gb  ABImemset.o [6]
+__iar_Memset            0x2400'05e5         Code  Gb  ABImemset.o [6]
+__iar_Memset_word       0x2400'05ed         Code  Gb  ABImemset.o [6]
+__iar_init_vfp          0x2400'24ed         Code  Gb  fpinit_M.o [5]
+memset                  0x2400'1cbd   0x14  Code  Gb  memset.o [6]
+sFLASH_EraseBulk        0x2400'06c7   0x12  Code  Gb  stm32_eval_spi_flash.o [2]
+sFLASH_EraseSector      0x2400'068d   0x3a  Code  Gb  stm32_eval_spi_flash.o [2]
+sFLASH_Init             0x2400'064d   0x40  Code  Gb  stm32_eval_spi_flash.o [2]
+sFLASH_ReadBuffer       0x2400'07a3   0x60  Code  Gb  stm32_eval_spi_flash.o [2]
+sFLASH_SendByte         0x2400'0803    0xe  Code  Gb  stm32_eval_spi_flash.o [2]
+sFLASH_WaitForWriteEnd  0x2400'083b   0x38  Code  Gb  stm32_eval_spi_flash.o [2]
+sFLASH_WriteBuffer      0x2400'0733   0x70  Code  Gb  stm32_eval_spi_flash.o [2]
+sFLASH_WriteEnable      0x2400'0811   0x2a  Code  Gb  stm32_eval_spi_flash.o [2]
+sFLASH_WritePage        0x2400'06d9   0x5a  Code  Gb  stm32_eval_spi_flash.o [2]
+uwTick                  0x2400'25ac    0x4  Data  Gb  stm32h7xx_hal.o [4]
+uwTickFreq              0x2400'251c    0x1  Data  Gb  stm32h7xx_hal.o [4]
+uwTickPrio              0x2400'2510    0x4  Data  Gb  stm32h7xx_hal.o [4]
+
+
+[1] = E:\QUBE_DISPLAY - 副本 - 副本\Projects\NUCLEO-H723ZG\Applications\GFX02Z1_FlashLoader\EWARM\GFX02Z1_FlashLoader\Obj\CMSIS_6603591812247902717.dir
+[2] = E:\QUBE_DISPLAY - 副本 - 副本\Projects\NUCLEO-H723ZG\Applications\GFX02Z1_FlashLoader\EWARM\GFX02Z1_FlashLoader\Obj\Core_13247989168731456611.dir
+[3] = E:\QUBE_DISPLAY - 副本 - 副本\Projects\NUCLEO-H723ZG\Applications\GFX02Z1_FlashLoader\EWARM\GFX02Z1_FlashLoader\Obj\Loader_5447159047149611127.dir
+[4] = E:\QUBE_DISPLAY - 副本 - 副本\Projects\NUCLEO-H723ZG\Applications\GFX02Z1_FlashLoader\EWARM\GFX02Z1_FlashLoader\Obj\STM32H7xx_HAL_Driver_12323373487323971647.dir
+[5] = m7M_tlv.a
+[6] = rt7M_tl.a
+
+  9'466 bytes of readonly  code memory
+    216 bytes of readonly  data memory
+    157 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

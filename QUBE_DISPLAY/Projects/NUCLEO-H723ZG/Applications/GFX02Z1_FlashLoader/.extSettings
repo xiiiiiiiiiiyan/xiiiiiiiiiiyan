@@ -1,0 +1,6 @@
+[ProjectFiles]
+HeaderPath=
+[Groups]
+Application/Loader=../Core/Src/Dev_Inf.c;../Core/Src/Loader_Src.c
+[Others]
+Define=EXT_BOARD_GFX02Z1

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspace>
+    <project>
+        <path>$WS_DIR$\GFX02Z1_FlashLoader.ewp</path>
+    </project>
+    <batchBuild>
+        <batchDefinition>
+            <name>everything</name>
+            <member>
+                <project>GFX02Z1_FlashLoader</project>
+                <configuration>GFX02Z1_FlashLoader</configuration>
+            </member>
+            <member>
+                <project>GFX02Z1_FlashLoader</project>
+                <configuration>GFX02Z1_FlashLoader_Tests</configuration>
+            </member>
+        </batchDefinition>
+    </batchBuild>
+</workspace>
